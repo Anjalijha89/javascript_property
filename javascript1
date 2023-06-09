@@ -1,0 +1,338 @@
+//1.way to print in java script
+/* console.log("Hello world");
+ alert("me");
+ */
+
+ //2.document wite in javascript
+ //document.write("hii");
+
+ //3.javascript console API
+/* console.log("Hello");
+ console.log("Hello",4+6,"Byy");
+ console.warn("This is warning");
+ console.error("This is error");
+ 
+
+ //4.Javascript variables
+ var num1 = 12;
+ var num2 = 13;
+ console.log(num1+num2);
+
+ //5. Datatypes in javascript
+ //number
+ var num1 = 67;
+ var num2 = 56.34;
+ //console.log(num1);
+
+//string
+ var str1 = "This is string";
+ var str2 = 'hello';
+ //console.log(str1,str2);
+
+ //object
+ var marks = {
+    ravi: 12,
+    Anjali: 89,
+    subham: 89
+}
+//console.log(marks);
+
+//boolean
+var a = true;
+var b = false;
+//console.log(a,b);
+
+var und;
+console.log(und);
+
+var n = null;
+console.log(n);
+
+//Array
+var arr = [1,2,3,"ram",5];
+console.log(arr);
+console.log(arr[3]);
+*/
+
+
+
+//6.operators in javascript
+//Arithmetic operator
+/*var a=90;
+var b =10;
+console.log("The value of a+b is: ",a+b);
+console.log("The value of a-b is: ",a-b);
+console.log("The value of a*b is: ",a*b);
+console.log("The value of a/b is: ",a/b);
+
+//Assignment operator
+var c =b;
+c += 2;
+console.log(c);
+
+
+//comparision operator
+console.log(a==b);
+console.log(a<=b);
+console.log(a>=b);
+console.log(a<b);
+
+//logical operator
+console.log(true && true);
+console.log(true || false);
+console.log(false || false);
+console.log(!true);
+*/
+
+
+/*
+//7.Functions
+function avg(a,b)
+{
+    return (a+b)/2;
+}
+c = avg(4,6);
+d = avg(34,68);
+console.log(c,d);
+
+
+//8.conditional in javascript
+var age = 4;
+if(age>18)
+{
+    console.log("You are adult");
+}
+else
+{
+    console.log("You are child");
+}
+*/
+
+
+//9.Loops in javascript
+
+//m-1 for loop
+/*
+var arr = [1,2,3,4,5,6];
+console.log(arr);
+for(var i=0;i<arr.length;i++)
+{
+    console.log(arr[i]);
+}
+
+
+//m-2 for loop
+arr.forEach(function(element)
+{
+    console.log(element);
+})
+
+
+//while loop
+var arr = [1,2,3,4,5,6];
+let j =0;
+while(j<arr.length)
+{
+    console.log(arr[j]);
+    j++;
+}
+
+
+//do while loop
+var arr = [1,2,3,4,5,6];
+let j =0;
+do{
+    console.log(arr[j]);
+    j++;
+}
+while(j < arr.length);
+
+
+
+//break statement and continue
+var arr = [1,2,3,4,5,6];
+console.log(arr);
+for(var i=0;i<arr.length;i++)
+{
+    if(i==3)
+    {
+        //break;
+        continue;
+    }
+    console.log(arr[i]);
+}
+*/
+
+
+
+//10. Array methods in javascript
+/*
+ let myarr = ["Fan","Camera",23,null,true];
+ console.log(myarr.length);
+ myarr.pop();
+ myarr.push("Anjali");
+ myarr.shift()           // remove 1st element: ['Camera', 23, null, 'Anjali']
+ myarr.unshift('Harry')   //(5) ['Harry', 'Camera', 23, null, 'Anjali']
+ const newlen = myarr.unshift('Happy')  //(6) ['Harry', 'Harry', 'Camera', 23, null, 'Anjali']
+ console.log(newlen)
+ myarr.toString()
+ myarr.sort()
+ console.log(myarr)     
+
+ //myarr.log()
+*/
+
+
+
+
+//11. String methods in javascript
+//let mystring = "Ram is a good boy";
+//console.log(mystring.length);
+//console.log(mystring.indexOf("good"));
+//console.log(mystring.slice(0,7));
+//d=mystring.replace("good","bad");
+//console.log(d);
+
+
+//12.Dates in javascript
+/*let mydate = new Date();
+console.log(mydate.getTime());
+console.log(mydate.getFullYear());
+console.log(mydate.getDay());*/
+
+
+
+//13. DOM manipulation method
+/*let elem = document.getElementById('click');
+console.log(elem);
+
+let elemclass = document.getElementsByClassName("container");
+console.log(elemclass);
+
+//elemclass[0].style.background = "green";
+elemclass[0].classList.add("bg-primary");
+elemclass[0].classList.add("text-success");
+
+console.log(elemclass[0].innerHTML);
+console.log(elemclass[0].innerText);
+console.log(elem.innerHTML);
+console.log(elem.innerText);
+
+tn = document.getElementsByTagName('div');
+console.log(tn)
+//tn = document.getElementsByTagName('button');
+//console.log(tn)
+
+createdElement = document.createElement('p');
+createdElement.innerText = "This is a good boy";
+tn[0].appendChild(createdElement);
+
+createdElement2 = document.createElement('b');
+createdElement2.innerText = "This is bold";
+tn[0].replaceChild(createdElement2,createdElement);
+
+
+
+//selecting using query
+sel = document.querySelector('.container');
+console.log(sel);
+sel = document.querySelectorAll('.container');
+console.log(sel);
+*/
+
+
+
+//14. Events in javascript
+/*function clicked()
+{
+    console.log("The button was clicked");
+
+}
+
+window.onload = function()
+{
+    console.log("The button was loaded");
+
+}
+
+firstcontainer.addEventListener('click',function()
+{
+    console.log("clicked on container")
+})
+
+
+firstcontainer.addEventListener('mouseover',function()
+{
+    console.log("Mouse on container")
+})
+
+firstcontainer.addEventListener('mouseout',function()
+{
+    console.log("Mouse out of container")
+})
+
+firstcontainer.addEventListener('mouseup',function()
+{
+    console.log("Mouse up when click on the  container")
+})
+
+
+
+firstcontainer.addEventListener('click',function()
+{
+    document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>" 
+    console.log("clicked on container")
+})
+
+
+
+let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
+firstcontainer.addEventListener('mouseup',function()
+{
+    document.querySelectorAll('.container')[1].innerHTML = prevHTML;
+    console.log("Mouse up when click on the  container")
+})
+firstcontainer.addEventListener('mousedown',function()
+{
+    document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>" 
+    console.log("Mouse down of container")
+})
+*/
+
+
+
+//Arrow function
+//sum = (a,b) =>{return a+b;}
+
+//15.setTimeOut and setinterval
+//logkaro = () =>
+//{
+   // document.querySelectorAll('.container')[1].innerHTML = "<b> Set interval fired</b>"  
+   // console.log("I am your log");
+//}
+//setTimeout(logkaro,2000);
+//setInterval(logkaro,2000);
+//clr = setInterval(logkaro,2000);   //use clearInterval(clr) or clearTimeOut(clr) to cancel setinterval and setTime
+
+
+
+
+//16.javascript localstorage
+/*
+localStorage.setItem('name','Harry')
+undefined
+localStorage
+Storage {item: 'Harry', length: 1}
+localStorage.getItem('name')
+localStorage.removeItem('name');
+localStorage.clear();
+*/
+
+
+
+
+//17.JSON => JAVASCRIPT OBJECT NOTATION
+object = {name: "Harry",length: 1};
+jso = JSON.stringify(object);
+console.log(jso);
+console.log(typeof jso)
